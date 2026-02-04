@@ -36,7 +36,7 @@ models/
 .streamlit/secrets.toml
 
 *.png
-*.jpg
+
 *.svg
 plots/
 
