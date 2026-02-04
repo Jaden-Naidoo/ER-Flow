@@ -1,0 +1,19 @@
+[theme]
+# Dark mode base
+base = "dark"
+
+# Primary brand color (medical blue)
+primaryColor = "cornflowerblue"
+
+# Backgrounds
+backgroundColor = "#0E1117"
+secondaryBackgroundColor = "#1d1f25"
+
+# Text
+textColor = "#EAEAEA"
+
+# Fonts (optional, but clean)
+font = "sans serif"
+
+
+   
