@@ -19,7 +19,7 @@ conda-meta/
 
 .ipynb_checkpoints/
 
-.mp3
+
 
 data/
 *.csv
@@ -35,10 +35,10 @@ models/
 
 .streamlit/secrets.toml
 
-*.png
 
-*.svg
-plots/
+
+
+
 
 
 *.log
