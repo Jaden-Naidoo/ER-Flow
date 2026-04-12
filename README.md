@@ -1,6 +1,6 @@
 # 🏥 ER Flow - An AI-Powered System That Automates Triage In The ER
 
-This project focuses on the classifying patients in the emergency room by analysing their vitals and presenting condition. This system is designed to support healthcare workers by enhancing ER workflows with triage recommendations that are explainable, fast and consistent.
+This project focuses on classifying patients in the emergency room by analysing their vitals and presenting condition. This system is designed to support healthcare workers by enhancing ER workflows with triage recommendations that are explainable, fast and consistent.
 
 ---
 
