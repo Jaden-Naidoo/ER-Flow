@@ -3,6 +3,8 @@ from simulation_page import *
 import streamlit as st
 import numpy as np
 st.set_page_config(page_title='ER Flow', page_icon=':material/emergency:', layout ='wide')
+st.markdown("---")
+st.caption("⚠️ This app is for educational purposes only.")
 
 st.sidebar.title(':primary[:material/navigation:] Navigate To')
 selected_page = st.sidebar.selectbox(
