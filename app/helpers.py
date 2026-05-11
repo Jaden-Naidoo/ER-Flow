@@ -4,9 +4,12 @@ import numpy as np
 import joblib
 import pandas as pd
 import shap
+import os 
 
+# Get the directory where helpers.py lives
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+model = joblib.load(os.path.join(BASE_DIR, 'ER_model.pkl'))
 
-model = joblib.load('ER_model.pkl')
 
 
 def theme_main_page():
