@@ -45,6 +45,17 @@ def theme_main_page():
     }
     </style>
     """, unsafe_allow_html=True)
+    st.markdown(
+      """
+      <style>
+      .footer { position: fixed; bottom: 0; left: 0; width: 100%;
+              text-align: center; padding: 8px; font-size: 13px;
+              color: gray; background-color: white; border-top: 1px solid #eee; }
+      </style>
+      <div class="footer">⚠️ This app is for educational purposes only.</div>
+      """,
+      unsafe_allow_html=True,
+  )
     
 def feat_cards():
     col1, col2, col3 = st.columns(3)
@@ -759,4 +770,15 @@ def predict_page():
         st.markdown(rows_html, unsafe_allow_html=True)
     else:
         st.info("Enter patient details and run triage to view results.")
+    st.markdown(
+    """
+    <style>
+    .footer { position: fixed; bottom: 0; left: 0; width: 100%;
+              text-align: center; padding: 8px; font-size: 13px;
+              color: gray; background-color: white; border-top: 1px solid #eee; }
+    </style>
+    <div class="footer">⚠️ This app is for educational purposes only.</div>
+    """,
+    unsafe_allow_html=True,
+)
             
